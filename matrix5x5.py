@@ -14,7 +14,7 @@ B = [
     [25, 26, 27, 28, 29],
     [29, 30, 31, 32, 33],
 ]
-# Penjumlahan Matriks A dan B
+
 def add_matrices(A, B):
     result = []
     for i in range(len(A)):
