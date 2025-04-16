@@ -1,4 +1,4 @@
-## Program Penjumlahan Matriks 5x5
+### Program Penjumlahan Matriks 5x5
 
 Program ini dibuat untuk menghitung hasil **penjumlahan dua buah matriks berukuran 5x5** menggunakan bahasa pemrograman Python.
 
@@ -39,7 +39,7 @@ B = [
 
 ---
 
-## 🔧 Cara Kerja Kode
+## Cara Kerja Kode
 
 ### Inisialisasi Fungsi Penjumlahan
 
@@ -48,7 +48,7 @@ def add_matrices(A, B):
     result = []
 ```
 
-📌 Penjelasan:
+Penjelasan:
 Membuat fungsi `add_matrices()` yang menerima dua parameter: `A` dan `B`. Di dalam fungsi, dibuat list kosong `result` untuk menampung hasil akhir penjumlahan.
 
 ---
