@@ -1,16 +1,16 @@
-## ➕ Program Penjumlahan Matriks 5x5
+## Program Penjumlahan Matriks 5x5
 
 Program ini dibuat untuk menghitung hasil **penjumlahan dua buah matriks berukuran 5x5** menggunakan bahasa pemrograman Python.
 
 ---
 
-## 📌 Deskripsi
+## Deskripsi
 
 Program akan melakukan penjumlahan matriks `A` dan `B` secara manual (tanpa menggunakan library seperti NumPy), lalu menyimpan hasilnya di matriks `hasil`, dan menampilkannya ke layar.
 
 ---
 
-## 📥 Input
+## Input
 
 Dua buah matriks 5x5:
 
@@ -41,7 +41,7 @@ B = [
 
 ## 🔧 Cara Kerja Kode
 
-### 1. Inisialisasi Fungsi Penjumlahan
+### Inisialisasi Fungsi Penjumlahan
 
 ```python
 def add_matrices(A, B):
@@ -53,7 +53,7 @@ Membuat fungsi `add_matrices()` yang menerima dua parameter: `A` dan `B`. Di dal
 
 ---
 
-### 2. Perhitungan Elemen Matriks
+### Perhitungan Elemen Matriks
 
 ```python
     for i in range(len(A)):
@@ -64,7 +64,7 @@ Membuat fungsi `add_matrices()` yang menerima dua parameter: `A` dan `B`. Di dal
     return result
 ```
 
-📌 Penjelasan:
+Penjelasan:
 - `i` digunakan untuk iterasi baris.
 - `j` digunakan untuk iterasi kolom.
 - Elemen pada posisi `[i][j]` dari matriks A dan B dijumlahkan, lalu ditambahkan ke dalam list `row`.
@@ -72,7 +72,7 @@ Membuat fungsi `add_matrices()` yang menerima dua parameter: `A` dan `B`. Di dal
 
 ---
 
-### 3. Menampilkan Hasil
+### Menampilkan Hasil
 
 ```python
 result = add_matrices(A, B)
@@ -80,23 +80,13 @@ for row in result:
     print(row)
 ```
 
-📌 Penjelasan:
+Penjelasan:
 - Fungsi `add_matrices()` dipanggil dan hasilnya disimpan di variabel `result`.
 - Setiap baris dalam `result` dicetak satu per satu ke layar.
 
 ---
 
-## ✅ Contoh Perhitungan Elemen `hasil[0][0]`
-
-```
-hasil[0][0] = A[0][0] + B[0][0]
-            = 1 + 2
-            = 3
-```
-
----
-
-## 📊 Matriks Hasil
+## Matriks Hasil
 
 Contoh hasil output dari program (tergantung nilai matriks A dan B):
 
