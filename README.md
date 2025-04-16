@@ -107,11 +107,3 @@ Contoh hasil output dari program (tergantung nilai matriks A dan B):
 [41, 43, 45, 47, 49]
 [50, 52, 54, 56, 58]
 ```
-
----
-
-## 🔍 Ringkasan
-
-- Program ini menunjukkan **cara manual menjumlahkan dua matriks 2D** menggunakan Python.
-- Cocok untuk pemula yang ingin memahami logika dasar penjumlahan matriks **tanpa menggunakan library eksternal**.
-- Struktur program sederhana dan mudah dipahami, hanya menggunakan perulangan `for` dan operasi aritmatika dasar.
